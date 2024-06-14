@@ -30,3 +30,43 @@ h1,h2,h3{
     list-style-type: none;
     margin-right: 30px;
 }
+#menu a{
+    text-decoration: none;
+}
+#menu a:hover{
+    color: red;
+}
+/*image*/
+#wrapper{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#cover-text, #cover-text h2{
+    color: white;
+}
+
+#goal-post{
+    height: 600px;
+    width: 100%;
+    background: url("../images/soccer-into-goal.jpg") no-repeat center center;
+
+}
+#cover-text{
+    font-size: 110%;
+    font-family: 'Roboto' sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 100px;
+    height: 200px;
+    padding-top: 40px;
+    padding-right: 200px;
+    bottom: 500px;
+    right: 20px;
+    position: absolute;
+    
+}
+
+
+    
