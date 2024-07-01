@@ -18,6 +18,23 @@ h1,h2,h3{
     letter-spacing: 3px;
 }
 
+/*header{
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 70;
+    width: 100;
+    box-shadow: 0 2px #676f7c;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+header a{
+    text-decoration: none;
+    color: inherit;
+}*/
+
+
 .logo{
     float: left;
 }
@@ -25,15 +42,41 @@ h1,h2,h3{
 #menu{
     font-size: 110%;
     letter-spacing: 3px;
-    
+    list-style-type: none;
 }
+/*nav toggle*/
+
+/*#nav-toggle:checked~nav{
+    display:block ;
+}*/
+
+
 #menu li{
     float: right;
     list-style-type: none;
     margin-right: 30px;
     color: #432460;
-    
+    margin-bottom: 1em;
 }
+
+/*nav dropdown toggle*/
+/*nav{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle{
+    display: none;
+}*/
+
+
+
+
 #menu a{
     text-decoration: none;
     
@@ -59,13 +102,6 @@ h1,h2,h3{
     color: white;
 }
 
-#goal-post{
-    height: 600px;
-    width: 100%;
-    background: url("../images/soccer-into-goal.jpg") no-repeat center center;
-    margin-top: 80px;
-    
-}
 #cover-text{
     font-size: 110%;
     font-family: 'Roboto' sans-serif;
@@ -87,11 +123,13 @@ h1,h2,h3{
     padding-right: 100px;
 }
 
-.active {
-    border-bottom: 1px solid #432460;
-}
+
 
 /*main content*/
+/*main{
+    flex: 1 0 auto;
+    margin-top: 50px;
+}*/
 .main{
     font-size: 50px;
     text-align: center;
@@ -108,6 +146,13 @@ h1,h2,h3{
     font-size: 30px;
     padding-bottom: 80px;
     margin-top: 70px;
+}
+
+#goal-post{
+    height: 600px;
+    width: 100%;
+    background: url("../images/soccer-into-goal.jpg") no-repeat center center;
+    margin-top: 80px;
 }
 
 /*footer styling*/
@@ -167,6 +212,11 @@ h1,h2,h3{
     padding-right: 550px;
     font-size: 30px;
 }
+#img{
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+}
 
 /*about us page*/
  #paragraph1{
@@ -199,19 +249,17 @@ ul#items{
 
 #image2{
     padding-top: 250px;
+
+}
+
+.pics{
+    height: 500px;
+    width: 500px;
 }
 
 #title2{
     padding-top: 50px;
 }
-
-
- #pics{
-    float: right;
-    padding-top: 50px;
-    padding-right: 50px;
- }
-
 
  form {
 	width: 1000px;
@@ -247,8 +295,42 @@ ul#items{
   button[type=submit]:hover {
     background-color: #45a049;
   }
-  /*Media query for small devices*/
-  @media screen and (max-width: 480px) {
-    
-    
-  }
+  /*Media query for tablets and larger devices*/
+  @media screen and (max-width: 760px) {
+     nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;}
+
+        #goal-post{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 600px;
+        }
+    }
+
+  
+    /*Header*/
+   /* nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu{
+        display: flex;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
+    #logo{
+        font-size: 200%;
+        line-height: 70px;
+        margin: 0 0.5rem;
+    }
+ }*/
