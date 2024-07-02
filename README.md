@@ -46,3 +46,11 @@ We have well qualifed staff menber with years of experience who are committed an
 * I can confirm that all navigations links are functional and easy to read.
 * The forms on the various pages has to be filled before proceeding.
 * I can confirm that the website was tested on chrome and Microsoft Edge.
+
+## Validator Testing
+### HTML
+* No error found when i passed it through w3c validtor
+
+### CSS
+* one error found when passed through the official Jigsaw validator
+![validator](documentation/Error.png)
