@@ -5,45 +5,51 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color:#676f7c;
+    color: #676f7c;
     font-size: 20px;
 }
 
 /*Header and logo*/
-h1,h2,h3{
+h1,
+h2,
+h3 {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 3px;
 }
 
-/*header{
+header {
     padding: 0 1rem;
     position: fixed;
     z-index: 70;
-    width: 100;
+    width: 100%;
     box-shadow: 0 2px #676f7c;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 
 }
-header a{
+
+header a {
     text-decoration: none;
     color: inherit;
-}*/
+}
 
 
-.logo{
+.logo {
     float: left;
 }
+
 /*navigation and links*/
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
 }
+
 /*nav toggle*/
 
 /*#nav-toggle:checked~nav{
@@ -51,7 +57,7 @@ header a{
 }*/
 
 
-#menu li{
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -77,34 +83,36 @@ header a{
 
 
 
-#menu a{
+#menu a {
     text-decoration: none;
-    
+
 }
-#menu a:hover{
+
+#menu a:hover {
     color: red;
 }
 
-.logo ~ #menu a{
+.logo~#menu a {
     background-color: #432460;
 }
 
 /*image*/
-#wrapper{
+#wrapper {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
 }
 
 
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: white;
 }
 
-#cover-text{
+#cover-text {
     font-size: 110%;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto'sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     width: 100px;
@@ -114,13 +122,14 @@ header a{
     bottom: 500px;
     right: 20px;
     position: absolute;
-    
+
 }
 
 
-.navbar{
-    padding-left: 100px;
-    padding-right: 100px;
+.navbar {
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: orange;
 }
 
 
@@ -130,25 +139,25 @@ header a{
     flex: 1 0 auto;
     margin-top: 50px;
 }*/
-.main{
+.main {
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
 }
 
-.main a{
+.main a {
     text-decoration: none;
     color: #432460;
-    
+
 }
 
-.text-bold{
+.text-bold {
     font-size: 30px;
     padding-bottom: 80px;
     margin-top: 70px;
 }
 
-#goal-post{
+#goal-post {
     height: 600px;
     width: 100%;
     background: url("../images/soccer-into-goal.jpg") no-repeat center center;
@@ -156,120 +165,127 @@ header a{
 }
 
 /*footer styling*/
- footer{
+footer {
     height: 50px;
     background-color: #434955;
     padding-bottom: 20%;
     text-align: center;
     color: white;
- } 
- #social-media{
+}
+
+#social-media {
     text-align: center;
- }  
- #social-media > li{
+}
+
+#social-media>li {
     display: inline;
- }
- #social-media i {
+}
+
+#social-media i {
     font-size: 90px;
     margin: 1%;
     padding: 5%;
     color: white;
- }
+}
 
- /*contact us page*/
- .main-head{
+/*contact us page*/
+.main-head {
     font-size: 60px;
     padding-bottom: 20px;
- }
+}
 
- #address{
+#address {
     font-size: 20px;
     padding-left: 50px;
- }
+}
 
- .headers{
+.headers {
     font-size: 30px;
     padding-left: 50px;
- }
+}
 
- #contact-page{
+#contact-page {
     text-align: center;
- }
+}
 
 
- #move-down{
+#move-down {
     padding-top: 150px;
 
- }
+}
 
- #paragraph2{
+#paragraph2 {
     padding-top: 40px;
     padding-bottom: 70px;
     padding-right: 400px;
- }
+}
 
- .phone{
+.phone {
     padding-right: 550px;
     font-size: 30px;
 }
-#img{
+
+#img {
     float: right;
     padding-top: 50px;
     padding-right: 50px;
 }
 
 /*about us page*/
- #paragraph1{
+#paragraph1 {
     line-height: 2em;
- }
+}
 
- 
-.wrap > #image1{
+
+.wrap>#image1 {
     padding-top: 100px;
 }
 
 
-div.wrap{
+div.wrap {
     text-align: center;
 }
-ul.list-items{
+
+ul.list-items {
     display: inline-block;
     text-align: left;
     line-height: 5em;
 }
 
-ul#items{
+ul#items {
     padding-bottom: 50px;
 }
 
 
-#title{
+#title {
     padding-top: 50px;
 }
 
-#image2{
+#image2 {
     padding-top: 250px;
 
 }
 
-.pics{
+.pics {
     height: 500px;
     width: 500px;
 }
 
-#title2{
+#title2 {
     padding-top: 50px;
 }
 
- form {
-	width: 1000px;
-	padding: 20px;
-	border-radius: 15px;
-	margin: 30px auto;
-	background-color: white;
+form {
+    width: 1000px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    background-color: white;
 }
 
- input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -277,45 +293,53 @@ ul#items{
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    
-  }
-  
-  input[type=submit] {
+
+}
+
+input[type=submit] {
     background-color: #432460;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  button[type=submit]:hover {
-    background-color: #45a049;
-  }
-  /*Media query for tablets and larger devices*/
-  @media screen and (max-width: 760px) {
-     nav{
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;}
+}
 
-        #goal-post{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 600px;
-        }
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*Media query for tablets and larger devices*/
+@media screen and (max-width: 760px) {
+    header {
+        justify-content: center;
+        flex-direction: column;
     }
 
-  
-    /*Header*/
-   /* nav{
+    .navbar {
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    #goal-post {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+    }
+}
+
+
+/*Header*/
+/* nav{
         display: block;
         position: relative;
         box-shadow: none;
