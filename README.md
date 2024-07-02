@@ -16,7 +16,7 @@ We have well qualifed staff menber with years of experience who are committed an
 
 ![football-pics.png](documentation/football-pics.png)
 
-###The Home page.
+### The Home page.
 * This gives or explain a general view of the what the page is all about.
 ### The register page.
 * This page provides a form where interested talented football can register and send in their application and futher information can be passed accross to them.
@@ -26,4 +26,11 @@ We have well qualifed staff menber with years of experience who are committed an
 
 ### About Us page.
 * This page contains specific information about the agency, what it does, its partners and when it was founded.
-![About us]()
+![About us page](documentation/about-us.png)
+
+### Contant us page.
+* This comprise of all information on how to reach out to us
+* Address, Email and phone number have been provided.
+* This enables the talents to be able to reach out to us in case of any issues encountered.
+
+![Contact us page](documentation/contact-us.png)
