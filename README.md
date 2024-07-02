@@ -15,3 +15,11 @@ We have well qualifed staff menber with years of experience who are committed an
 * The eye catching football pictures easily lures talented footballers to our platform.
 
 ![football-pics.png](documentation/football-pics.png)
+
+###The Home page.
+* This gives or explain a general view of the what the page is all about.
+### The register page.
+* This page provides a form where interested talented football can register and send in their application and futher information can be passed accross to them.
+* Details such as name and last name is required as well as country where they would like to come for trials, positions where they are comfortable in playing. A part to talk yourself is provided.
+* With registration, chances of taking part in the trial is a possibility.
+![Register page](documentation/Register.png)
