@@ -23,3 +23,7 @@ We have well qualifed staff menber with years of experience who are committed an
 * Details such as name and last name is required as well as country where they would like to come for trials, positions where they are comfortable in playing. A part to talk yourself is provided.
 * With registration, chances of taking part in the trial is a possibility.
 ![Register page](documentation/Register.png)
+
+### About Us page.
+* This page contains specific information about the agency, what it does, its partners and when it was founded.
+![About us]()
