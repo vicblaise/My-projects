@@ -54,3 +54,7 @@ We have well qualifed staff menber with years of experience who are committed an
 ### CSS
 * one error found when passed through the official Jigsaw validator
 ![validator](documentation/Error.png)
+
+### Accessibility
+* i confirm that both color and fonts are easy to read and i ran through lighthouse in devtools.
+![Accessibility](documentation/performance.png)
