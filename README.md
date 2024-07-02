@@ -8,4 +8,3 @@ We have well qualifed staff menber with years of experience who are committed an
 *In this section, i have included 4 links to different pages which includes Home, Register, About us and Contact respectively.
 
 *These various links, will help the user easily navigate to the various pages of interest with ease.
-![Header and navbar.png](documentation/header-and-navbar.png)
