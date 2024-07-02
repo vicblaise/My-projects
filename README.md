@@ -34,3 +34,10 @@ We have well qualifed staff menber with years of experience who are committed an
 * This enables the talents to be able to reach out to us in case of any issues encountered.
 
 ![Contact us page](documentation/contact-us.png)
+
+## Footer
+* The footer contains links to our various social media handles where you can reach out to us allows for easy navigation for the user.
+* The footer is valuable to the user as it encourages them to keep connected via social media.
+
+![Footer](documentation/footer.png)
+
