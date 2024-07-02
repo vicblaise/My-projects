@@ -41,3 +41,8 @@ We have well qualifed staff menber with years of experience who are committed an
 
 ![Footer](documentation/footer.png)
 
+# Testing
+* As at when i tested the page it looked responsive and function well on a screens.
+* I can confirm that all navigations links are functional and easy to read.
+* The forms on the various pages has to be filled before proceeding.
+* I can confirm that the website was tested on chrome and Microsoft Edge.

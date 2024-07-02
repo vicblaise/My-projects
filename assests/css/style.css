@@ -26,16 +26,19 @@ header {
     position: fixed;
     z-index: 70;
     width: 100%;
-    box-shadow: 0 2px #676f7c;
+    box-shadow: 0 2px #432460;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #432460;
+    color: #ffffff;
 
 }
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: #ffffff;
+    margin-bottom: 40px;
 }
 
 
@@ -126,11 +129,10 @@ header a {
 }
 
 
-/*.navbar {
+.navbar {
     padding-left: 1em;
     padding-right: 1em;
-    background-color: orange;
-}*/
+}
 
 
 
@@ -152,9 +154,10 @@ header a {
 }
 
 .text-bold {
-    font-size: 30px;
+    font-size: 20px;
     padding-bottom: 80px;
     margin-top: 70px;
+    line-height:2em ;
 }
 
 #goal-post {
@@ -168,7 +171,7 @@ header a {
 footer {
     height: 50px;
     background-color: #434955;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
     text-align: center;
     color: white;
 }
@@ -317,7 +320,7 @@ button[type=submit]:hover {
 @media screen and (max-width: 760px) {
     header {
         justify-content: center;
-        flex-direction: column;
+        
     }
 
     .navbar {
@@ -335,26 +338,19 @@ button[type=submit]:hover {
         width: 100%;
         height: 600px;
     }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .text-bold {
+        font-size: 20px;
+        padding-bottom: 20px 20px +80px;
+        margin-top: 70px;
+        line-height:2em ;
+    }
 }
 
 
 /*Header*/
-/* nav{
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-    #menu{
-        display: flex;
-    }
-    .nav-toggle-label{
-        display: none;
-    }
-    #logo{
-        font-size: 200%;
-        line-height: 70px;
-        margin: 0 0.5rem;
-    }
- }*/
+
+ 
